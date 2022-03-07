@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+<body>
+    <header>
+        <h1>Manipulação de DOM</h1>
+        <button onclick="reload()" class="reload">Recarregar</button>
+    </header>
+    <section>
+        <ul>
+            <li>O que é o <button onclick="DOM()">DOM</button>?</li>
+            <li>O que são os objetos <button onclick="windowF()">window</button> e <button onclick="documentF()">document</button>?</li>
+            <li><button onclick="getElementByIdF()">getElementById</button> x <button onclick="getElementsByClassNameF()">getElementsByClassName</button> x <button onclick="querySelectorF()">querySelector</button> x <button onclick="querySelectorAllF()">querySelectorAll</button></li>
+            <li>O que é um  <button onclick="elementF()">Element</button> no JavaScript?</li>
+            <li><button onclick="innerHTMLF()">innerHTML</button> x <button onclick="innerTextF()">innerText</button> x <button onclick="textContentF()">textContent</button></li>
+            <li><button onclick="nodeListF()">NodeList</button> x <button onclick="arrayF()">Array</button></li>
+            <li>Como criar elementos via JavaScript com <button onclick="documentCreateElementF()">document.createElement</button> e <button onclick="elementAppendChildF()">element.appendChild</button>?</li>
+        </ul>
+        <img src="arvore-dom.png" alt="árvore DOM">
+    </section>
+    <div>
+        <p></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
